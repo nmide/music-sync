@@ -10,4 +10,4 @@ do
    kill $i
 done
 
-/usr/bin/python3 "$MUSIC_SYNC" > "$LOG_DIR/sync.log" 2> "$LOG_DIR/sync.log"
+/usr/bin/python3 "$MUSIC_SYNC" > "$LOG_DIR/sync.log" 2>> "$LOG_DIR/sync.log"
